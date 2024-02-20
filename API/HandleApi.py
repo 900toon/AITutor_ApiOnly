@@ -30,4 +30,3 @@ while True:
     userInput = input("user: ")
     output = Conversation.invoke(userInput)
     print(f"GPT: {output['response']}")
-
